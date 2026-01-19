@@ -1,0 +1,114 @@
+# Loan Eligibility Prediction Using Machine Learning
+
+This project predicts whether a loan applicant is eligible for a loan using machine learning algorithms. It helps automate the loan approval process by analyzing applicant financial and personal details.
+
+## Problem Statement
+
+Loan approval is usually done manually and depends on multiple factors such as income, credit history, and employment status. Manual evaluation is time-consuming and may lead to biased decisions. This project uses machine learning to predict loan eligibility efficiently.
+
+## Objectives
+
+- Predict loan approval status based on applicant data
+- Reduce manual effort in loan approval process
+- Improve accuracy and consistency in decision making
+- Analyze factors affecting loan eligibility
+
+## Dataset
+
+The dataset contains the following attributes:
+- Gender
+- Marital Status
+- Education
+- Applicant Income
+- Coapplicant Income
+- Loan Amount
+- Loan Amount Term
+- Credit History
+- Property Area
+- Loan Status (Target Variable)
+
+Dataset source: Publicly available loan dataset (e.g., Kaggle)
+
+## Machine Learning Algorithms Used
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Support Vector Machine (Optional)
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Project Workflow
+
+1. Data collection
+2. Data cleaning and preprocessing
+3. Exploratory data analysis
+4. Feature encoding and scaling
+5. Model training
+6. Model evaluation
+7. Loan eligibility prediction
+
+## Model Evaluation Metrics
+
+- Accuracy
+- Confusion Matrix
+- Precision
+- Recall
+- F1 Score
+
+## Project Structure
+
+Loan-Eligibility-Prediction/
+│
+├── dataset/
+│   └── loan_data.csv
+│
+├── notebooks/
+│   └── loan_prediction.ipynb
+│
+├── model/
+│   └── trained_model.pkl
+│
+├── requirements.txt
+└── README.md
+
+## How to Run the Project
+
+1. Clone the repository
+   git clone https://github.com/your-username/loan-eligibility-prediction.git
+
+2. Navigate to the project directory
+   cd loan-eligibility-prediction
+
+3. Install required libraries
+   pip install -r requirements.txt
+
+4. Run the Jupyter Notebook
+   jupyter notebook
+
+## Results
+
+The Random Forest model achieved the best performance compared to other algorithms. Credit history and income were the most important features influencing loan approval.
+
+## Future Scope
+
+- Deploy the model using Flask or Streamlit
+- Improve accuracy using hyperparameter tuning
+- Add real-time prediction interface
+- Use advanced algorithms like XGBoost
+
+## Author
+
+Satvik Dupakuntla
+
+## License
+
+This project is licensed under the MIT License.

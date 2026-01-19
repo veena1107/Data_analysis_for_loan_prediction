@@ -103,12 +103,4 @@ The Random Forest model achieved the best performance compared to other algorith
 - Deploy the model using Flask or Streamlit
 - Improve accuracy using hyperparameter tuning
 - Add real-time prediction interface
-- Use advanced algorithms like XGBoost
-
-## Author
-
-Satvik Dupakuntla
-
-## License
-
-This project is licensed under the MIT License.
+- Use advanced algorithms like XGBoost.
